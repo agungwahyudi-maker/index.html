@@ -1,0 +1,130 @@
+.navbar img {
+  width: 120px;
+}
+.nav-item {
+  color: white;
+}
+
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid rgb(6, 161, 58);
+  width: 50%;
+  margin: auto;
+  margin-bottom: -2px;
+}
+.jumbotron h5 {
+  color: rgba(6, 161, 58);
+  text-transform: capitalize;
+}
+.jumbotron h1 {
+  font-weight: 200;
+  font-size: 37px;
+}
+.jumbotron p,
+.hire .col-lg-3 p {
+  font-weight: 200;
+}
+.col-4 img,
+footer img {
+  width: 20px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+.col-4 a {
+  text-decoration: none;
+  font-weight: 100;
+}
+.download a {
+  font-size: 12px;
+}
+.project {
+  margin-top: 50px;
+}
+.project .col-lg-4 img {
+  width: 200px;
+}
+.project .col-4 img {
+  width: 200px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+.project .card,
+.sertifikat .card {
+  box-shadow: 0px 0px 8px #acacac;
+  border-color: rgb(6, 161, 58);
+}
+.sertifikat a {
+  text-align: center;
+  font-size: 13px;
+  margin: 0 auto;
+}
+.hire .col-lg-3 img {
+  width: 100px;
+  float: left;
+  margin-right: 15px;
+}
+.box {
+  background-color: #64626280;
+}
+.hire .row {
+  box-shadow: 0px 0px 2px #acacac;
+  background-color: #64626280;
+  border-radius: 20px;
+}
+.hire .row .col-lg-3 {
+  padding: 15px;
+}
+.hire p {
+  font-size: 12px;
+}
+.hire hr {
+  width: 30px;
+}
+.tools .align img {
+  width: 50px;
+  margin-right: 20px;
+}
+.tools .align {
+  align-items: center;
+}
+footer .col-lg-6 p {
+  display: inline-block;
+  margin-top: 18px;
+}
+
+@media (min-width: 992px) {
+  .jumbotron {
+    padding: 80px 150px;
+  }
+  .project {
+    padding: 0 150px;
+  }
+  .project {
+    margin-top: 50px;
+  }
+  .project .col-lg-4 img {
+    width: 200px;
+  }
+  .project .col-4 img {
+    width: 200px;
+    margin-top: 8px;
+    margin-right: 5px;
+  }
+  .project .card,
+  .sertifikat .card {
+    box-shadow: 0px 0px 8px #acacac;
+    border-color: rgb(6, 161, 58);
+  }
+  .sertifikat a {
+    text-align: center;
+    font-size: 13px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 520px) {
+  .project,
+  .sertifikat {
+    display: none;
+  }
+}
