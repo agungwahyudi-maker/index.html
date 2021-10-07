@@ -4,11 +4,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
     <link rel="icon" href="img/profil.png" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <title>AGUNG-WAHYUDI</title>
   </head>
   <body class="bg-dark">
@@ -44,7 +45,7 @@
             <h5 class="">Hello, nama saya agung wahyudi</h5>
             <h1 class="text-light">Junior Graphic <strong>Design</strong> dan FrontEnd <strong>Developer</strong></h1>
             <hr class="my-2 text-light" />
-            <p class="text-light mt-3">
+            <p class="text-light">
               Saya berasal dari Kabupaten Lamongan Jawa Timur, Indonesia. Saya sedang menempuh pendidikan di salah satu prguruan tinggi yang ada di Indonesia. Saya merupakan mahasiswa semester 5 prodi Teknik Informatika. Sejak SD saya sering
               mengikuti kegiatan-kegiatan bersertifikat baik sertifikat kompetensi maupun akademik
             </p>
@@ -52,15 +53,15 @@
               <div class="col-4">
                 <a class="btn btn-success text-light" href="https://api.whatsapp.com/send?phone=6285834661714" target="blank" role="button">Chat Me</a>
               </div>
+              <div class="col-4 download">
+                <a href="#" class="text-light download"><i class="fas fa-download text-light"></i> Download CV</a>
+              </div>
               <div class="col-4">
                 <a href=""><img src="img/ig.png" alt="" /></a>
                 <!-- <a href=""><img src="img/youtube.png" alt="" /></a> -->
                 <a href=""><img src="img/wa.png" alt="" /></a>
                 <a href=""><img src="img/facebook.png" alt="" /></a>
               </div>
-            </div>
-            <div class="col-4 download">
-              <a href="#" class="text-light download"><i class="fas fa-download text-light"></i> Download CV</a>
             </div>
           </div>
           <div class="col-lg-6">
@@ -71,67 +72,80 @@
       <!-- Akhir Jumbotron -->
 
       <!-- Project -->
-      <div class="project text-light">
+      <!-- <div class="project text-light">
         <h2 class="text-light text-center" id="project">Projects</h2>
-        <div class="row justify-content-center align-item-center mt-3" data-aos-duration="1000" data-aos="flip-left">
-          <div class="col-sm-4 mb-3">
-            <div class="card">
-              <img src="img/project3.jpg" class="card-img-top" alt="agung wahyudi" />
-              <div class="card-body bg-success">
-                <p class="card-text text-center">Lorem, ipsum dolor.</p>
+        <div class="row align-items-center">
+          <div class="col-12">
+            <div class="card mb-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="img/project3.jpg" class="img-fluid rounded-start" alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-4 mb-3">
-            <div class="card">
-              <img src="img/project3.jpg" class="card-img-top" alt="agung wahyudi" />
-              <div class="card-body bg-success">
-                <p class="card-text text-center">Lorem, ipsum dolor.</p>
+        </div> -->
+
+      <!-- <div class="row mt-3" data-aos-duration="1000" data-aos="flip-left">
+          <div class="col-lg-12">
+            <div class="owl-carousell project-carousel">
+              <div class="project-item">
+                <div class="img-box">
+                  <img src="img/project3.jpg" alt="" />
+                </div>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="project-item">
+                <div class="img-box">
+                  <img src="img/project3.jpg" alt="" />
+                </div>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="project-item">
+                <div class="img-box">
+                  <img src="img/project3.jpg" alt="" />
+                </div>
+                <p>Lorem ipsum dolor sit amet.</p>
               </div>
             </div>
           </div>
-          <div class="col-sm-4 mb-3">
-            <div class="card">
-              <img src="img/project3.jpg" class="card-img-top" alt="agung wahyudi" />
-              <div class="card-body bg-success">
-                <p class="card-text text-center">Lorem, ipsum dolor.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
       <!-- Akhir Projects -->
 
       <!-- Sertifikat -->
-      <div class="sertifikat mt-5 text-light">
-        <h2 class="text-center">Sertifikat</h2>
-        <div class="row justify-content-center mt-3">
-          <div class="col-sm-2 mb-3">
-            <div class="card">
-              <img src="img/BLK.jpg" alt="" class="card-img-bottom" />
-              <div class="card-body bg-success">
-                <a href="" class="card-text text-light text-decoration-none text-center"><i class="fas fa-download"></i> View</a>
+      <!-- <div class="sertifikat mt-5 text-light">
+        <h2 class="text-center">Sertifikat</h2> -->
+      <!-- <div class="row justify-content-center mt-3">
+          <div class="owl-carousell project-carousel">
+            <div class="project-item">
+              <div class="img-box">
+                <img src="img/project3.jpg" alt="" />
               </div>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="project-item">
+              <div class="img-box">
+                <img src="img/project3.jpg" alt="" />
+              </div>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="project-item">
+              <div class="img-box">
+                <img src="img/project3.jpg" alt="" />
+              </div>
+              <p>Lorem ipsum dolor sit amet.</p>
             </div>
           </div>
-          <div class="col-md-2 mb-3">
-            <div class="card">
-              <img src="img/FESTIVAL WIRAKARYA.jpg" alt="" class="card-img-bottom" />
-              <div class="card-body bg-success">
-                <a href="" class="card-text text-light text-decoration-none text-center"><i class="fas fa-download"></i> View</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-2 mb-3">
-            <div class="card">
-              <img src="img/NIPRO.jpg" alt="" class="card-img-bottom" />
-              <div class="card-body bg-success">
-                <a href="" class="card-text text-light text-decoration-none text-center"><i class="fas fa-download"></i> View</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
       <!-- Akhir Sertifikat -->
 
       <!-- Interest -->
@@ -186,14 +200,18 @@
       <div class="tools mt-5 mb-6">
         <h5 class="text-light text-center">Tools Support</h5>
         <div class="align">
-          <div class="row align-item-center">
+          <div class="row">
             <div class="col-12">
-              <img src="img/tools_corel.png" alt="" />
-              <img src="img/tools_corel.png" alt="" />
-              <img src="img/tools_corel.png" alt="" />
-              <img src="img/tools_corel.png" alt="" />
-              <img src="img/tools_corel.png" alt="" />
-              <img src="img/tools_corel.png" alt="" />
+              <img class="mt-2" src="img/tools_corel.png" alt="" />
+              <img class="mt-2" src="img/psd.jpg" alt="" />
+              <img class="mt-2" src="img/html1.png" alt="" />
+              <img class="mt-2" src="img/css1.png" alt="" />
+              <img class="mt-2" src="img/bootstrap-stack.png" alt="" />
+              <img class="mt-2" src="img/php-1-logo-png-transparent.png" alt="" />
+              <img class="mt-2" src="img/java.png" alt="" />
+              <img class="mt-2" src="img/excel.png" alt="" />
+              <img class="mt-2" src="img/ms_word_logo1600.png" alt="" />
+              <img class="mt-2" src="img/power1.png" alt="" />
             </div>
           </div>
         </div>
@@ -223,6 +241,10 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/main.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/poppers.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
